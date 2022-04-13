@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2CCAAB72807799800F2200F /* ScottStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCAAB62807799800F2200F /* ScottStoreApp.swift */; };
+		E2CCAAB92807799800F2200F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCAAB82807799800F2200F /* ContentView.swift */; };
+		E2CCAABB2807799D00F2200F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2CCAABA2807799D00F2200F /* Assets.xcassets */; };
+		E2CCAABE2807799D00F2200F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2CCAABD2807799D00F2200F /* Preview Assets.xcassets */; };
+		E2CCAAC82807799D00F2200F /* ScottStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCAAC72807799D00F2200F /* ScottStoreTests.swift */; };
+		E2CCAAD22807799D00F2200F /* ScottStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCAAD12807799D00F2200F /* ScottStoreUITests.swift */; };
+		E2CCAAD42807799D00F2200F /* ScottStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCAAD32807799D00F2200F /* ScottStoreUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2CCAAC42807799D00F2200F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2CCAAAB2807799800F2200F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2CCAAB22807799800F2200F;
+			remoteInfo = ScottStore;
+		};
+		E2CCAACE2807799D00F2200F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2CCAAAB2807799800F2200F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2CCAAB22807799800F2200F;
+			remoteInfo = ScottStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2CCAAB32807799800F2200F /* ScottStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScottStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2CCAAB62807799800F2200F /* ScottStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScottStoreApp.swift; sourceTree = "<group>"; };
+		E2CCAAB82807799800F2200F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E2CCAABA2807799D00F2200F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2CCAABD2807799D00F2200F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2CCAAC32807799D00F2200F /* ScottStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScottStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2CCAAC72807799D00F2200F /* ScottStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScottStoreTests.swift; sourceTree = "<group>"; };
+		E2CCAACD2807799D00F2200F /* ScottStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScottStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2CCAAD12807799D00F2200F /* ScottStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScottStoreUITests.swift; sourceTree = "<group>"; };
+		E2CCAAD32807799D00F2200F /* ScottStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScottStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2CCAAB02807799800F2200F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CCAAC02807799D00F2200F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CCAACA2807799D00F2200F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2CCAAAA2807799800F2200F = {
+			isa = PBXGroup;
+			children = (
+				E2CCAAB52807799800F2200F /* ScottStore */,
+				E2CCAAC62807799D00F2200F /* ScottStoreTests */,
+				E2CCAAD02807799D00F2200F /* ScottStoreUITests */,
+				E2CCAAB42807799800F2200F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2CCAAB42807799800F2200F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2CCAAB32807799800F2200F /* ScottStore.app */,
+				E2CCAAC32807799D00F2200F /* ScottStoreTests.xctest */,
+				E2CCAACD2807799D00F2200F /* ScottStoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2CCAAB52807799800F2200F /* ScottStore */ = {
+			isa = PBXGroup;
+			children = (
+				E2CCAAB62807799800F2200F /* ScottStoreApp.swift */,
+				E2CCAAB82807799800F2200F /* ContentView.swift */,
+				E2CCAABA2807799D00F2200F /* Assets.xcassets */,
+				E2CCAABC2807799D00F2200F /* Preview Content */,
+			);
+			path = ScottStore;
+			sourceTree = "<group>";
+		};
+		E2CCAABC2807799D00F2200F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E2CCAABD2807799D00F2200F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2CCAAC62807799D00F2200F /* ScottStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2CCAAC72807799D00F2200F /* ScottStoreTests.swift */,
+			);
+			path = ScottStoreTests;
+			sourceTree = "<group>";
+		};
+		E2CCAAD02807799D00F2200F /* ScottStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2CCAAD12807799D00F2200F /* ScottStoreUITests.swift */,
+				E2CCAAD32807799D00F2200F /* ScottStoreUITestsLaunchTests.swift */,
+			);
+			path = ScottStoreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2CCAAB22807799800F2200F /* ScottStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2CCAAD72807799D00F2200F /* Build configuration list for PBXNativeTarget "ScottStore" */;
+			buildPhases = (
+				E2CCAAAF2807799800F2200F /* Sources */,
+				E2CCAAB02807799800F2200F /* Frameworks */,
+				E2CCAAB12807799800F2200F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScottStore;
+			productName = ScottStore;
+			productReference = E2CCAAB32807799800F2200F /* ScottStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2CCAAC22807799D00F2200F /* ScottStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2CCAADA2807799D00F2200F /* Build configuration list for PBXNativeTarget "ScottStoreTests" */;
+			buildPhases = (
+				E2CCAABF2807799D00F2200F /* Sources */,
+				E2CCAAC02807799D00F2200F /* Frameworks */,
+				E2CCAAC12807799D00F2200F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2CCAAC52807799D00F2200F /* PBXTargetDependency */,
+			);
+			name = ScottStoreTests;
+			productName = ScottStoreTests;
+			productReference = E2CCAAC32807799D00F2200F /* ScottStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2CCAACC2807799D00F2200F /* ScottStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2CCAADD2807799D00F2200F /* Build configuration list for PBXNativeTarget "ScottStoreUITests" */;
+			buildPhases = (
+				E2CCAAC92807799D00F2200F /* Sources */,
+				E2CCAACA2807799D00F2200F /* Frameworks */,
+				E2CCAACB2807799D00F2200F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2CCAACF2807799D00F2200F /* PBXTargetDependency */,
+			);
+			name = ScottStoreUITests;
+			productName = ScottStoreUITests;
+			productReference = E2CCAACD2807799D00F2200F /* ScottStoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2CCAAAB2807799800F2200F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					E2CCAAB22807799800F2200F = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					E2CCAAC22807799D00F2200F = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = E2CCAAB22807799800F2200F;
+					};
+					E2CCAACC2807799D00F2200F = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = E2CCAAB22807799800F2200F;
+					};
+				};
+			};
+			buildConfigurationList = E2CCAAAE2807799800F2200F /* Build configuration list for PBXProject "ScottStore" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2CCAAAA2807799800F2200F;
+			productRefGroup = E2CCAAB42807799800F2200F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2CCAAB22807799800F2200F /* ScottStore */,
+				E2CCAAC22807799D00F2200F /* ScottStoreTests */,
+				E2CCAACC2807799D00F2200F /* ScottStoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2CCAAB12807799800F2200F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CCAABE2807799D00F2200F /* Preview Assets.xcassets in Resources */,
+				E2CCAABB2807799D00F2200F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CCAAC12807799D00F2200F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CCAACB2807799D00F2200F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2CCAAAF2807799800F2200F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CCAAB92807799800F2200F /* ContentView.swift in Sources */,
+				E2CCAAB72807799800F2200F /* ScottStoreApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CCAABF2807799D00F2200F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CCAAC82807799D00F2200F /* ScottStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CCAAC92807799D00F2200F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CCAAD42807799D00F2200F /* ScottStoreUITestsLaunchTests.swift in Sources */,
+				E2CCAAD22807799D00F2200F /* ScottStoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2CCAAC52807799D00F2200F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2CCAAB22807799800F2200F /* ScottStore */;
+			targetProxy = E2CCAAC42807799D00F2200F /* PBXContainerItemProxy */;
+		};
+		E2CCAACF2807799D00F2200F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2CCAAB22807799800F2200F /* ScottStore */;
+			targetProxy = E2CCAACE2807799D00F2200F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E2CCAAD52807799D00F2200F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2CCAAD62807799D00F2200F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2CCAAD82807799D00F2200F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScottStore/Preview Content\"";
+				DEVELOPMENT_TEAM = 7RRR36Z8B9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lgutierrez.ScottStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2CCAAD92807799D00F2200F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScottStore/Preview Content\"";
+				DEVELOPMENT_TEAM = 7RRR36Z8B9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lgutierrez.ScottStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E2CCAADB2807799D00F2200F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RRR36Z8B9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lgutierrez.ScottStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScottStore.app/ScottStore";
+			};
+			name = Debug;
+		};
+		E2CCAADC2807799D00F2200F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RRR36Z8B9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lgutierrez.ScottStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScottStore.app/ScottStore";
+			};
+			name = Release;
+		};
+		E2CCAADE2807799D00F2200F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RRR36Z8B9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lgutierrez.ScottStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScottStore;
+			};
+			name = Debug;
+		};
+		E2CCAADF2807799D00F2200F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RRR36Z8B9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lgutierrez.ScottStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScottStore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2CCAAAE2807799800F2200F /* Build configuration list for PBXProject "ScottStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CCAAD52807799D00F2200F /* Debug */,
+				E2CCAAD62807799D00F2200F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2CCAAD72807799D00F2200F /* Build configuration list for PBXNativeTarget "ScottStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CCAAD82807799D00F2200F /* Debug */,
+				E2CCAAD92807799D00F2200F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2CCAADA2807799D00F2200F /* Build configuration list for PBXNativeTarget "ScottStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CCAADB2807799D00F2200F /* Debug */,
+				E2CCAADC2807799D00F2200F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2CCAADD2807799D00F2200F /* Build configuration list for PBXNativeTarget "ScottStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CCAADE2807799D00F2200F /* Debug */,
+				E2CCAADF2807799D00F2200F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2CCAAAB2807799800F2200F /* Project object */;
+}
