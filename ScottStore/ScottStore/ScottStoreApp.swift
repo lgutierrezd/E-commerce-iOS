@@ -11,7 +11,10 @@ import SwiftUI
 struct ScottStoreApp: App {
     var body: some Scene {
         WindowGroup {
+            let viewModel = UserGlobalStatusViewModel()
             ContentView()
+               .environmentObject(viewModel)
         }
+        
     }
 }

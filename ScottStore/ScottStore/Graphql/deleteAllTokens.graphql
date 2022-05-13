@@ -1,0 +1,9 @@
+mutation deleteAllTokens {
+  tokensDeactivateAll {
+	accountErrors {
+	  field
+	  message
+	  code
+	}
+  }
+}

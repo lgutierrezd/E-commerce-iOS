@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E25C1EEA282C9D2400A4D9F2 /* UserGlobalStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C1EE9282C9D2400A4D9F2 /* UserGlobalStatusViewModel.swift */; };
+		E25C1EEC282C9F1500A4D9F2 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C1EEB282C9F1500A4D9F2 /* SignInView.swift */; };
+		E25C1EEE282CA67400A4D9F2 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C1EED282CA67400A4D9F2 /* Network.swift */; };
+		E25C1EF0282CA6D700A4D9F2 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C1EEF282CA6D700A4D9F2 /* LoginViewModel.swift */; };
+		E25C1EF2282D7E4A00A4D9F2 /* LoginToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C1EF1282D7E4900A4D9F2 /* LoginToken.swift */; };
+		E25C1EF4282D912900A4D9F2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C1EF3282D912900A4D9F2 /* MainView.swift */; };
+		E25C1EF6282D923500A4D9F2 /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C1EF5282D923500A4D9F2 /* ProductsView.swift */; };
+		E25C1EF8282D924100A4D9F2 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C1EF7282D924100A4D9F2 /* CategoriesView.swift */; };
+		E25C1EFA282D924A00A4D9F2 /* OrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C1EF9282D924A00A4D9F2 /* OrdersView.swift */; };
+		E25C1EFC282D925100A4D9F2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C1EFB282D925100A4D9F2 /* SettingsView.swift */; };
+		E25C1EFF282D9EB100A4D9F2 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C1EFE282D9EB100A4D9F2 /* SettingsRowView.swift */; };
+		E25C1F01282D9EF800A4D9F2 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C1F00282D9EF800A4D9F2 /* SettingsLabelView.swift */; };
+		E2AF01D1282DC81A00B053A6 /* deleteAllTokens.graphql in Resources */ = {isa = PBXBuildFile; fileRef = E2AF01D0282DC81A00B053A6 /* deleteAllTokens.graphql */; };
 		E2CCAAB72807799800F2200F /* ScottStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCAAB62807799800F2200F /* ScottStoreApp.swift */; };
 		E2CCAAB92807799800F2200F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCAAB82807799800F2200F /* ContentView.swift */; };
 		E2CCAABB2807799D00F2200F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2CCAABA2807799D00F2200F /* Assets.xcassets */; };
@@ -14,6 +27,11 @@
 		E2CCAAC82807799D00F2200F /* ScottStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCAAC72807799D00F2200F /* ScottStoreTests.swift */; };
 		E2CCAAD22807799D00F2200F /* ScottStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCAAD12807799D00F2200F /* ScottStoreUITests.swift */; };
 		E2CCAAD42807799D00F2200F /* ScottStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCAAD32807799D00F2200F /* ScottStoreUITestsLaunchTests.swift */; };
+		E2CCAAE2280B40B100F2200F /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = E2CCAAE1280B40B100F2200F /* Apollo */; };
+		E2CCAAE4280B40B100F2200F /* ApolloWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = E2CCAAE3280B40B100F2200F /* ApolloWebSocket */; };
+		E2CCAAEB282C8B5600F2200F /* tokenJWTLogin.graphql in Resources */ = {isa = PBXBuildFile; fileRef = E2CCAAEA282C8B5600F2200F /* tokenJWTLogin.graphql */; };
+		E2CCAAED282C906600F2200F /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = E2CCAAEC282C906600F2200F /* schema.json */; };
+		E2CCAAEF282C91A300F2200F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCAAEE282C91A300F2200F /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E25C1EE9282C9D2400A4D9F2 /* UserGlobalStatusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGlobalStatusViewModel.swift; sourceTree = "<group>"; };
+		E25C1EEB282C9F1500A4D9F2 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		E25C1EED282CA67400A4D9F2 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		E25C1EEF282CA6D700A4D9F2 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		E25C1EF1282D7E4900A4D9F2 /* LoginToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginToken.swift; sourceTree = "<group>"; };
+		E25C1EF3282D912900A4D9F2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E25C1EF5282D923500A4D9F2 /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
+		E25C1EF7282D924100A4D9F2 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		E25C1EF9282D924A00A4D9F2 /* OrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersView.swift; sourceTree = "<group>"; };
+		E25C1EFB282D925100A4D9F2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E25C1EFE282D9EB100A4D9F2 /* SettingsRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
+		E25C1F00282D9EF800A4D9F2 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		E2AF01D0282DC81A00B053A6 /* deleteAllTokens.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = deleteAllTokens.graphql; sourceTree = "<group>"; };
 		E2CCAAB32807799800F2200F /* ScottStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScottStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2CCAAB62807799800F2200F /* ScottStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScottStoreApp.swift; sourceTree = "<group>"; };
 		E2CCAAB82807799800F2200F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +75,9 @@
 		E2CCAACD2807799D00F2200F /* ScottStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScottStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2CCAAD12807799D00F2200F /* ScottStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScottStoreUITests.swift; sourceTree = "<group>"; };
 		E2CCAAD32807799D00F2200F /* ScottStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScottStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2CCAAEA282C8B5600F2200F /* tokenJWTLogin.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = tokenJWTLogin.graphql; sourceTree = "<group>"; };
+		E2CCAAEC282C906600F2200F /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		E2CCAAEE282C91A300F2200F /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2CCAAE2280B40B100F2200F /* Apollo in Frameworks */,
+				E2CCAAE4280B40B100F2200F /* ApolloWebSocket in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +107,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E25C1EE5282C9B0200A4D9F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E25C1EF1282D7E4900A4D9F2 /* LoginToken.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E25C1EE6282C9B1200A4D9F2 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E25C1EE9282C9D2400A4D9F2 /* UserGlobalStatusViewModel.swift */,
+				E25C1EED282CA67400A4D9F2 /* Network.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		E25C1EE7282C9B1C00A4D9F2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E25C1EEF282CA6D700A4D9F2 /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E25C1EE8282C9B3600A4D9F2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E25C1EFD282D956900A4D9F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E2CCAAB82807799800F2200F /* ContentView.swift */,
+				E25C1EEB282C9F1500A4D9F2 /* SignInView.swift */,
+				E25C1EF3282D912900A4D9F2 /* MainView.swift */,
+				E2AF01D2282DFB3900B053A6 /* Products */,
+				E2AF01D3282DFB4200B053A6 /* Categories */,
+				E2AF01D4282DFB4B00B053A6 /* Orders */,
+				E2AF01D5282DFB5400B053A6 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E2AF01D2282DFB3900B053A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E25C1EF5282D923500A4D9F2 /* ProductsView.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		E2AF01D3282DFB4200B053A6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E25C1EF7282D924100A4D9F2 /* CategoriesView.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		E2AF01D4282DFB4B00B053A6 /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				E25C1EF9282D924A00A4D9F2 /* OrdersView.swift */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		E2AF01D5282DFB5400B053A6 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				E25C1EFB282D925100A4D9F2 /* SettingsView.swift */,
+				E25C1EFE282D9EB100A4D9F2 /* SettingsRowView.swift */,
+				E25C1F00282D9EF800A4D9F2 /* SettingsLabelView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		E2CCAAAA2807799800F2200F = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +210,17 @@
 		E2CCAAB52807799800F2200F /* ScottStore */ = {
 			isa = PBXGroup;
 			children = (
+				E2CCAAEE282C91A300F2200F /* API.swift */,
 				E2CCAAB62807799800F2200F /* ScottStoreApp.swift */,
-				E2CCAAB82807799800F2200F /* ContentView.swift */,
+				E2CCAAEC282C906600F2200F /* schema.json */,
 				E2CCAABA2807799D00F2200F /* Assets.xcassets */,
 				E2CCAABC2807799D00F2200F /* Preview Content */,
+				E2CCAAE9282C8B2F00F2200F /* Graphql */,
+				E25C1EE8282C9B3600A4D9F2 /* Utils */,
+				E25C1EE7282C9B1C00A4D9F2 /* ViewModels */,
+				E25C1EE5282C9B0200A4D9F2 /* Models */,
+				E25C1EE6282C9B1200A4D9F2 /* API */,
+				E25C1EFD282D956900A4D9F2 /* Views */,
 			);
 			path = ScottStore;
 			sourceTree = "<group>";
@@ -127,6 +250,15 @@
 			path = ScottStoreUITests;
 			sourceTree = "<group>";
 		};
+		E2CCAAE9282C8B2F00F2200F /* Graphql */ = {
+			isa = PBXGroup;
+			children = (
+				E2CCAAEA282C8B5600F2200F /* tokenJWTLogin.graphql */,
+				E2AF01D0282DC81A00B053A6 /* deleteAllTokens.graphql */,
+			);
+			path = Graphql;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2CCAAD72807799D00F2200F /* Build configuration list for PBXNativeTarget "ScottStore" */;
 			buildPhases = (
+				E2CCAAE8282C8A1300F2200F /* Apollo */,
 				E2CCAAAF2807799800F2200F /* Sources */,
 				E2CCAAB02807799800F2200F /* Frameworks */,
 				E2CCAAB12807799800F2200F /* Resources */,
@@ -143,6 +276,10 @@
 			dependencies = (
 			);
 			name = ScottStore;
+			packageProductDependencies = (
+				E2CCAAE1280B40B100F2200F /* Apollo */,
+				E2CCAAE3280B40B100F2200F /* ApolloWebSocket */,
+			);
 			productName = ScottStore;
 			productReference = E2CCAAB32807799800F2200F /* ScottStore.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +352,9 @@
 				Base,
 			);
 			mainGroup = E2CCAAAA2807799800F2200F;
+			packageReferences = (
+				E2CCAAE0280B40B100F2200F /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
 			productRefGroup = E2CCAAB42807799800F2200F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,7 +371,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2CCAAED282C906600F2200F /* schema.json in Resources */,
 				E2CCAABE2807799D00F2200F /* Preview Assets.xcassets in Resources */,
+				E2CCAAEB282C8B5600F2200F /* tokenJWTLogin.graphql in Resources */,
+				E2AF01D1282DC81A00B053A6 /* deleteAllTokens.graphql in Resources */,
 				E2CCAABB2807799D00F2200F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,13 +395,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E2CCAAE8282C8A1300F2200F /* Apollo */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Apollo;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# Don't run this during index builds\nif [ $ACTION = \"indexbuild\" ]; then exit 0; fi\n\n# Go to the build root and search up the chain to find the Derived Data Path where the source packages are checked out.\nDERIVED_DATA_CANDIDATE=\"${BUILD_ROOT}\"\n\nwhile ! [ -d \"${DERIVED_DATA_CANDIDATE}/SourcePackages\" ]; do\n  if [ \"${DERIVED_DATA_CANDIDATE}\" = / ]; then\n    echo >&2 \"error: Unable to locate SourcePackages directory from BUILD_ROOT: '${BUILD_ROOT}'\"\n    exit 1\n  fi\n\n  DERIVED_DATA_CANDIDATE=\"$(dirname \"${DERIVED_DATA_CANDIDATE}\")\"\ndone\n\n# Grab a reference to the directory where scripts are checked out\nSCRIPT_PATH=\"${DERIVED_DATA_CANDIDATE}/SourcePackages/checkouts/apollo-ios/scripts\"\n\nif [ -z \"${SCRIPT_PATH}\" ]; then\n    echo >&2 \"error: Couldn't find the CLI script in your checked out SPM packages; make sure to add the framework to your project.\"\n    exit 1\nfi\n\ncd \"${SRCROOT}/ScottStore\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" API.swift\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2CCAAAF2807799800F2200F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E25C1EF0282CA6D700A4D9F2 /* LoginViewModel.swift in Sources */,
+				E25C1EF4282D912900A4D9F2 /* MainView.swift in Sources */,
 				E2CCAAB92807799800F2200F /* ContentView.swift in Sources */,
+				E2CCAAEF282C91A300F2200F /* API.swift in Sources */,
+				E25C1EF6282D923500A4D9F2 /* ProductsView.swift in Sources */,
+				E25C1EFA282D924A00A4D9F2 /* OrdersView.swift in Sources */,
+				E25C1EFF282D9EB100A4D9F2 /* SettingsRowView.swift in Sources */,
 				E2CCAAB72807799800F2200F /* ScottStoreApp.swift in Sources */,
+				E25C1EEA282C9D2400A4D9F2 /* UserGlobalStatusViewModel.swift in Sources */,
+				E25C1EF2282D7E4A00A4D9F2 /* LoginToken.swift in Sources */,
+				E25C1EF8282D924100A4D9F2 /* CategoriesView.swift in Sources */,
+				E25C1EEC282C9F1500A4D9F2 /* SignInView.swift in Sources */,
+				E25C1F01282D9EF800A4D9F2 /* SettingsLabelView.swift in Sources */,
+				E25C1EEE282CA67400A4D9F2 /* Network.swift in Sources */,
+				E25C1EFC282D925100A4D9F2 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +760,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E2CCAAE0280B40B100F2200F /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E2CCAAE1280B40B100F2200F /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2CCAAE0280B40B100F2200F /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		E2CCAAE3280B40B100F2200F /* ApolloWebSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2CCAAE0280B40B100F2200F /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloWebSocket;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E2CCAAAB2807799800F2200F /* Project object */;
 }
