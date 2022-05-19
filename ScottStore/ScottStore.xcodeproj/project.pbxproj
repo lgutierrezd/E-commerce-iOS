@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E22390762834784B0024EEE8 /* askCategories.graphql in Resources */ = {isa = PBXBuildFile; fileRef = E22390742834784B0024EEE8 /* askCategories.graphql */; };
+		E22390772834784B0024EEE8 /* frontProducts.graphql in Resources */ = {isa = PBXBuildFile; fileRef = E22390752834784B0024EEE8 /* frontProducts.graphql */; };
 		E25C1EEA282C9D2400A4D9F2 /* UserGlobalStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C1EE9282C9D2400A4D9F2 /* UserGlobalStatusViewModel.swift */; };
 		E25C1EEC282C9F1500A4D9F2 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C1EEB282C9F1500A4D9F2 /* SignInView.swift */; };
 		E25C1EEE282CA67400A4D9F2 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C1EED282CA67400A4D9F2 /* Network.swift */; };
@@ -20,6 +22,8 @@
 		E25C1EFF282D9EB100A4D9F2 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C1EFE282D9EB100A4D9F2 /* SettingsRowView.swift */; };
 		E25C1F01282D9EF800A4D9F2 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C1F00282D9EF800A4D9F2 /* SettingsLabelView.swift */; };
 		E2AF01D1282DC81A00B053A6 /* deleteAllTokens.graphql in Resources */ = {isa = PBXBuildFile; fileRef = E2AF01D0282DC81A00B053A6 /* deleteAllTokens.graphql */; };
+		E2B1955A28345F790070ED74 /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B1955928345F790070ED74 /* Thumbnail.swift */; };
+		E2B1955C28345FC90070ED74 /* Gross.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B1955B28345FC90070ED74 /* Gross.swift */; };
 		E2CCAAB72807799800F2200F /* ScottStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCAAB62807799800F2200F /* ScottStoreApp.swift */; };
 		E2CCAAB92807799800F2200F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCAAB82807799800F2200F /* ContentView.swift */; };
 		E2CCAABB2807799D00F2200F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2CCAABA2807799D00F2200F /* Assets.xcassets */; };
@@ -32,6 +36,8 @@
 		E2CCAAEB282C8B5600F2200F /* tokenJWTLogin.graphql in Resources */ = {isa = PBXBuildFile; fileRef = E2CCAAEA282C8B5600F2200F /* tokenJWTLogin.graphql */; };
 		E2CCAAED282C906600F2200F /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = E2CCAAEC282C906600F2200F /* schema.json */; };
 		E2CCAAEF282C91A300F2200F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCAAEE282C91A300F2200F /* API.swift */; };
+		E2FEEEFE28347C8600511BE4 /* StorefrontViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FEEEFD28347C8600511BE4 /* StorefrontViewModel.swift */; };
+		E2FEEF002834930B00511BE4 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FEEEFF2834930B00511BE4 /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E22390742834784B0024EEE8 /* askCategories.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = askCategories.graphql; sourceTree = "<group>"; };
+		E22390752834784B0024EEE8 /* frontProducts.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = frontProducts.graphql; sourceTree = "<group>"; };
 		E25C1EE9282C9D2400A4D9F2 /* UserGlobalStatusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGlobalStatusViewModel.swift; sourceTree = "<group>"; };
 		E25C1EEB282C9F1500A4D9F2 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		E25C1EED282CA67400A4D9F2 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
@@ -65,6 +73,8 @@
 		E25C1EFE282D9EB100A4D9F2 /* SettingsRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 		E25C1F00282D9EF800A4D9F2 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
 		E2AF01D0282DC81A00B053A6 /* deleteAllTokens.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = deleteAllTokens.graphql; sourceTree = "<group>"; };
+		E2B1955928345F790070ED74 /* Thumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thumbnail.swift; sourceTree = "<group>"; };
+		E2B1955B28345FC90070ED74 /* Gross.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gross.swift; sourceTree = "<group>"; };
 		E2CCAAB32807799800F2200F /* ScottStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScottStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2CCAAB62807799800F2200F /* ScottStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScottStoreApp.swift; sourceTree = "<group>"; };
 		E2CCAAB82807799800F2200F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +88,8 @@
 		E2CCAAEA282C8B5600F2200F /* tokenJWTLogin.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = tokenJWTLogin.graphql; sourceTree = "<group>"; };
 		E2CCAAEC282C906600F2200F /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
 		E2CCAAEE282C91A300F2200F /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		E2FEEEFD28347C8600511BE4 /* StorefrontViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorefrontViewModel.swift; sourceTree = "<group>"; };
+		E2FEEEFF2834930B00511BE4 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +123,9 @@
 			isa = PBXGroup;
 			children = (
 				E25C1EF1282D7E4900A4D9F2 /* LoginToken.swift */,
+				E2B1955928345F790070ED74 /* Thumbnail.swift */,
+				E2B1955B28345FC90070ED74 /* Gross.swift */,
+				E2FEEEFF2834930B00511BE4 /* Category.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -128,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				E25C1EEF282CA6D700A4D9F2 /* LoginViewModel.swift */,
+				E2FEEEFD28347C8600511BE4 /* StorefrontViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -255,6 +271,8 @@
 			children = (
 				E2CCAAEA282C8B5600F2200F /* tokenJWTLogin.graphql */,
 				E2AF01D0282DC81A00B053A6 /* deleteAllTokens.graphql */,
+				E22390742834784B0024EEE8 /* askCategories.graphql */,
+				E22390752834784B0024EEE8 /* frontProducts.graphql */,
 			);
 			path = Graphql;
 			sourceTree = "<group>";
@@ -371,11 +389,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E22390772834784B0024EEE8 /* frontProducts.graphql in Resources */,
 				E2CCAAED282C906600F2200F /* schema.json in Resources */,
 				E2CCAABE2807799D00F2200F /* Preview Assets.xcassets in Resources */,
 				E2CCAAEB282C8B5600F2200F /* tokenJWTLogin.graphql in Resources */,
 				E2AF01D1282DC81A00B053A6 /* deleteAllTokens.graphql in Resources */,
 				E2CCAABB2807799D00F2200F /* Assets.xcassets in Resources */,
+				E22390762834784B0024EEE8 /* askCategories.graphql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,18 +443,22 @@
 			files = (
 				E25C1EF0282CA6D700A4D9F2 /* LoginViewModel.swift in Sources */,
 				E25C1EF4282D912900A4D9F2 /* MainView.swift in Sources */,
+				E2B1955C28345FC90070ED74 /* Gross.swift in Sources */,
 				E2CCAAB92807799800F2200F /* ContentView.swift in Sources */,
 				E2CCAAEF282C91A300F2200F /* API.swift in Sources */,
 				E25C1EF6282D923500A4D9F2 /* ProductsView.swift in Sources */,
 				E25C1EFA282D924A00A4D9F2 /* OrdersView.swift in Sources */,
 				E25C1EFF282D9EB100A4D9F2 /* SettingsRowView.swift in Sources */,
 				E2CCAAB72807799800F2200F /* ScottStoreApp.swift in Sources */,
+				E2FEEEFE28347C8600511BE4 /* StorefrontViewModel.swift in Sources */,
 				E25C1EEA282C9D2400A4D9F2 /* UserGlobalStatusViewModel.swift in Sources */,
+				E2FEEF002834930B00511BE4 /* Category.swift in Sources */,
 				E25C1EF2282D7E4A00A4D9F2 /* LoginToken.swift in Sources */,
 				E25C1EF8282D924100A4D9F2 /* CategoriesView.swift in Sources */,
 				E25C1EEC282C9F1500A4D9F2 /* SignInView.swift in Sources */,
 				E25C1F01282D9EF800A4D9F2 /* SettingsLabelView.swift in Sources */,
 				E25C1EEE282CA67400A4D9F2 /* Network.swift in Sources */,
+				E2B1955A28345F790070ED74 /* Thumbnail.swift in Sources */,
 				E25C1EFC282D925100A4D9F2 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

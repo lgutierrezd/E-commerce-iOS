@@ -1,0 +1,45 @@
+query frontProducts {
+  products(
+    first: 20
+    channel: "default-channel"
+    sortBy: {field: NAME, direction: ASC}
+  ) {
+    edges {
+      node {
+        id
+        name
+        category {
+          id
+          name
+              }
+        pricing {
+          priceRange {
+            start {
+              gross {
+                amount
+                currency
+              }
+            }
+          }
+          discount {
+            gross {
+              amount
+              currency
+            }
+          }
+          priceRangeUndiscounted {
+            start {
+              gross {
+                amount
+                currency
+              }
+            }
+          }
+        }
+        thumbnail {
+          url
+        }
+      }
+    }
+  }
+}

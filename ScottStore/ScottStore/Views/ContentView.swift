@@ -12,9 +12,8 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView{
-            if viewModel.userToken.signedIn ?? false {
+            if viewModel.isSignedIn {
                 MainView()
-                
             } else {
                 SignInView()
                     .navigationTitle("Sign in")

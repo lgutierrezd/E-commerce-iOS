@@ -24,7 +24,7 @@ class UserGlobalStatusViewModel: ObservableObject {
         let loginVM = LoginViewModel()
         loginVM.login(email: email, password: password, success: { (result) -> () in
             if result.data?.tokenCreate?.errors.count ?? 0 > 0 {
-                print(result.data?.tokenCreate?.errors ?? "errors")
+                print(result.data?.tokenCreate?.errors ?? "errors") //mejorar la coleccion errores de api con un metodo en la clase utils
                 for error in result.data?.tokenCreate?.errors ?? [] {
                     
                 }

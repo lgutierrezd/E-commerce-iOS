@@ -9,8 +9,9 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
+        let storeFrontVM: StorefrontViewModel = StorefrontViewModel()
         TabView {
-            ProductsView()
+            ProductsView(storefrontViewModel: storeFrontVM)
                 .tabItem {
                 Image(systemName: "square.grid.2x2")
                 Text("Browse")

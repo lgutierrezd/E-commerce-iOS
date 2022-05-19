@@ -9,11 +9,15 @@ import SwiftUI
 
 @main
 struct ScottStoreApp: App {
+    
+    @StateObject var storefrontVM = StorefrontViewModel()
+    
     var body: some Scene {
         WindowGroup {
             let viewModel = UserGlobalStatusViewModel()
             ContentView()
                .environmentObject(viewModel)
+               .environmentObject(storefrontVM)
         }
         
     }
