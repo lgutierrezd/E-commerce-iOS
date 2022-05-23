@@ -4,13 +4,18 @@ query askCategories{
       node {
         id
         name
-        level
         parent {
           id
           name
         }
-        children {
+        children(first:12) {
           totalCount
+          edges {
+            node {
+              id
+              name
+            }
+          }
         }
       }
     }

@@ -8,25 +8,25 @@
 import Foundation
 import Apollo
 
-typealias StoreFrontProductsQuery = FrontProductsQuery.Data.Product.Edge
+typealias HomeViewQuery = HomeStoreFrontQuery.Data.Category.Edge
 
 final class StorefrontViewModel: ObservableObject {
     
-    @Published var frontProducts: [StoreFrontProductsQuery] = []
+    @Published var homeViewCategoriesProductsList: [HomeViewQuery] = []
     
     init() {
         fetch()
     }
     
     func fetch() {
-        Network.shared.apollo.fetch(query: FrontProductsQuery()) { result in
+        Network.shared.apollo.fetch(query: HomeStoreFrontQuery()) { result in
             switch result {
             case .success(let frontProductsQuery):
                 guard let data = frontProductsQuery.data else { return }
-                guard let products = data.products else { return }
-                self.frontProducts = products.edges
+                guard let category = data.categories else { return }
                 
-
+                self.homeViewCategoriesProductsList = category.edges
+                
             case .failure(let error):
                 print(error)
             }

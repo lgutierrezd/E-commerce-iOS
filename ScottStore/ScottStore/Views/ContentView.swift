@@ -11,18 +11,18 @@ struct ContentView: View {
     @EnvironmentObject var viewModel: UserGlobalStatusViewModel
     
     var body: some View {
-        NavigationView{
-            if viewModel.isSignedIn {
-                MainView()
-            } else {
-                SignInView()
-                    .navigationTitle("Sign in")
-            }
+        if viewModel.isSignedIn {
+            MainView()
+                .onAppear{
+                    viewModel.userToken.signedIn = viewModel.isSignedIn
+                }
+        } else {
+            SignInView()
+                .navigationTitle("Sign in")
         }
-        .onAppear{
-            viewModel.userToken.signedIn = viewModel.isSignedIn
-        }
+        
     }
+    
 }
 
 

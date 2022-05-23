@@ -37,7 +37,11 @@
 		E2CCAAED282C906600F2200F /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = E2CCAAEC282C906600F2200F /* schema.json */; };
 		E2CCAAEF282C91A300F2200F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCAAEE282C91A300F2200F /* API.swift */; };
 		E2FEEEFE28347C8600511BE4 /* StorefrontViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FEEEFD28347C8600511BE4 /* StorefrontViewModel.swift */; };
-		E2FEEF002834930B00511BE4 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FEEEFF2834930B00511BE4 /* Category.swift */; };
+		E2FEEF022839E69800511BE4 /* homeStoreFront.graphql in Resources */ = {isa = PBXBuildFile; fileRef = E2FEEF012839E69800511BE4 /* homeStoreFront.graphql */; };
+		E2FEEF042839EC9600511BE4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FEEF032839EC9600511BE4 /* Constants.swift */; };
+		E2FEEF06283AC52C00511BE4 /* HomeSectionCategoryProductsGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FEEF05283AC52C00511BE4 /* HomeSectionCategoryProductsGridCell.swift */; };
+		E2FEEF08283AC83B00511BE4 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FEEF07283AC83B00511BE4 /* Badge.swift */; };
+		E2FEEF0A283AE48F00511BE4 /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FEEF09283AE48F00511BE4 /* CategoryViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,7 +93,11 @@
 		E2CCAAEC282C906600F2200F /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
 		E2CCAAEE282C91A300F2200F /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		E2FEEEFD28347C8600511BE4 /* StorefrontViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorefrontViewModel.swift; sourceTree = "<group>"; };
-		E2FEEEFF2834930B00511BE4 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		E2FEEF012839E69800511BE4 /* homeStoreFront.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = homeStoreFront.graphql; sourceTree = "<group>"; };
+		E2FEEF032839EC9600511BE4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E2FEEF05283AC52C00511BE4 /* HomeSectionCategoryProductsGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSectionCategoryProductsGridCell.swift; sourceTree = "<group>"; };
+		E2FEEF07283AC83B00511BE4 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		E2FEEF09283AE48F00511BE4 /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +133,6 @@
 				E25C1EF1282D7E4900A4D9F2 /* LoginToken.swift */,
 				E2B1955928345F790070ED74 /* Thumbnail.swift */,
 				E2B1955B28345FC90070ED74 /* Gross.swift */,
-				E2FEEEFF2834930B00511BE4 /* Category.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -144,6 +151,7 @@
 			children = (
 				E25C1EEF282CA6D700A4D9F2 /* LoginViewModel.swift */,
 				E2FEEEFD28347C8600511BE4 /* StorefrontViewModel.swift */,
+				E2FEEF09283AE48F00511BE4 /* CategoryViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -151,6 +159,8 @@
 		E25C1EE8282C9B3600A4D9F2 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				E2FEEF032839EC9600511BE4 /* Constants.swift */,
+				E2FEEF07283AC83B00511BE4 /* Badge.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -173,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				E25C1EF5282D923500A4D9F2 /* ProductsView.swift */,
+				E2FEEF05283AC52C00511BE4 /* HomeSectionCategoryProductsGridCell.swift */,
 			);
 			path = Products;
 			sourceTree = "<group>";
@@ -273,6 +284,7 @@
 				E2AF01D0282DC81A00B053A6 /* deleteAllTokens.graphql */,
 				E22390742834784B0024EEE8 /* askCategories.graphql */,
 				E22390752834784B0024EEE8 /* frontProducts.graphql */,
+				E2FEEF012839E69800511BE4 /* homeStoreFront.graphql */,
 			);
 			path = Graphql;
 			sourceTree = "<group>";
@@ -393,6 +405,7 @@
 				E2CCAAED282C906600F2200F /* schema.json in Resources */,
 				E2CCAABE2807799D00F2200F /* Preview Assets.xcassets in Resources */,
 				E2CCAAEB282C8B5600F2200F /* tokenJWTLogin.graphql in Resources */,
+				E2FEEF022839E69800511BE4 /* homeStoreFront.graphql in Resources */,
 				E2AF01D1282DC81A00B053A6 /* deleteAllTokens.graphql in Resources */,
 				E2CCAABB2807799D00F2200F /* Assets.xcassets in Resources */,
 				E22390762834784B0024EEE8 /* askCategories.graphql in Resources */,
@@ -447,15 +460,18 @@
 				E2CCAAB92807799800F2200F /* ContentView.swift in Sources */,
 				E2CCAAEF282C91A300F2200F /* API.swift in Sources */,
 				E25C1EF6282D923500A4D9F2 /* ProductsView.swift in Sources */,
+				E2FEEF0A283AE48F00511BE4 /* CategoryViewModel.swift in Sources */,
 				E25C1EFA282D924A00A4D9F2 /* OrdersView.swift in Sources */,
 				E25C1EFF282D9EB100A4D9F2 /* SettingsRowView.swift in Sources */,
 				E2CCAAB72807799800F2200F /* ScottStoreApp.swift in Sources */,
 				E2FEEEFE28347C8600511BE4 /* StorefrontViewModel.swift in Sources */,
 				E25C1EEA282C9D2400A4D9F2 /* UserGlobalStatusViewModel.swift in Sources */,
-				E2FEEF002834930B00511BE4 /* Category.swift in Sources */,
 				E25C1EF2282D7E4A00A4D9F2 /* LoginToken.swift in Sources */,
+				E2FEEF08283AC83B00511BE4 /* Badge.swift in Sources */,
 				E25C1EF8282D924100A4D9F2 /* CategoriesView.swift in Sources */,
 				E25C1EEC282C9F1500A4D9F2 /* SignInView.swift in Sources */,
+				E2FEEF06283AC52C00511BE4 /* HomeSectionCategoryProductsGridCell.swift in Sources */,
+				E2FEEF042839EC9600511BE4 /* Constants.swift in Sources */,
 				E25C1F01282D9EF800A4D9F2 /* SettingsLabelView.swift in Sources */,
 				E25C1EEE282CA67400A4D9F2 /* Network.swift in Sources */,
 				E2B1955A28345F790070ED74 /* Thumbnail.swift in Sources */,
