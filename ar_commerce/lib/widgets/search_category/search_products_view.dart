@@ -1,8 +1,7 @@
 import 'package:ar_commerce/models/category.dart';
-import 'package:ar_commerce/utils/utils.dart';
 import 'package:ar_commerce/widgets/search_category/bloc/categories_cubit.dart';
+import 'package:ar_commerce/widgets/search_category/list_products_view.dart';
 import 'package:flutter/material.dart';
-import 'package:ar_commerce/models/product.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class SearchProductsView extends StatefulWidget {
@@ -35,7 +34,9 @@ class _SearchProductsViewState extends State<SearchProductsView>
       bloc: _categoryCubit,
       builder: (context, categories) {
         if (categories.isEmpty) {
-          return const CircularProgressIndicator();
+          return const Center(
+            child: CircularProgressIndicator(),
+          );
         } else {
           return Scaffold(
             appBar: AppBar(
@@ -55,7 +56,14 @@ class _SearchProductsViewState extends State<SearchProductsView>
 
   Widget buildTile(Category category, {int level = 0}) {
     if (category.childs?.isEmpty ?? false) {
-      return ListTile(title: Text(category.name));
+      return GestureDetector(
+        onTap: () {
+          navigateToProductScreen(category);
+        },
+        child: ListTile(
+          title: Text(category.name),
+        ),
+      );
     } else {
       return ExpansionTile(
         title: Text(category.name),
@@ -63,13 +71,11 @@ class _SearchProductsViewState extends State<SearchProductsView>
           BlocBuilder<CategoryCubit, List<Category>>(
             bloc: _categoryCubit,
             builder: (context, categories) {
-              // Filtrar las categorías que son hijos de la categoría actual
               List<String> childs =
                   category.childs == null ? [] : category.childs!;
               final childrenCategories =
                   categories.where((child) => childs.contains(child.id));
 
-              // Mapear las categorías filtradas a ExpansionTiles
               return Padding(
                 padding: EdgeInsets.only(left: (level + 1) * 16.0),
                 child: Column(
@@ -85,35 +91,12 @@ class _SearchProductsViewState extends State<SearchProductsView>
       );
     }
   }
-}
 
-class card_product_view_1 extends StatelessWidget {
-  const card_product_view_1({
-    super.key,
-    required this.product,
-  });
-
-  final Product product;
-
-  @override
-  Widget build(BuildContext context) {
-    return Card(
-      child: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Image.network(
-              product.configs.first.images.first,
-              fit: BoxFit.cover,
-              height: 100,
-              width: 100,
-            ),
-            Text(product.name),
-            Text(
-              "₡ ${Utils.formatPrice(product.configs.first.price)}",
-            ),
-          ],
-        ),
+  void navigateToProductScreen(Category category) {
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => ListProductsView(category: category),
       ),
     );
   }

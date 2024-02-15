@@ -4,8 +4,8 @@ import 'package:http/http.dart' as http;
 enum HttpMethod { get, post, delete, patch }
 
 class HttpRequestManager {
-  final String baseUrl = "http://192.168.100.28:3000";
-
+  //final String baseUrl = "http://192.168.100.28:3000";
+  final String baseUrl = "https://silent-blend-412918.uc.r.appspot.com";
   HttpRequestManager();
 
   Future<dynamic> request({
